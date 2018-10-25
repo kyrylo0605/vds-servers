@@ -1,0 +1,387 @@
+ol.breadcrumb {
+    background: #fff;
+    margin: 5px 0 5px;
+    padding: 20px 0;
+    font-family: GothamPro;
+    font-size: 16px;
+}
+
+.breadcrumb-item {
+    color: #3e2723 !important;
+}
+
+.breadcrumb-item.active {
+    color: #3e2723 !important;
+}
+
+.container-fluid.cont-bl {
+    background: #fff;
+    margin: -5px 0 0 0;
+}
+
+.conts-is {
+    width: 1143px;
+    margin: 0 auto;
+}
+
+/*----------------------*/
+
+.img-bl {
+    position:  relative;
+    margin: 0 0 20px;
+}
+
+.img-bg {
+    position:  absolute;
+    left: 0;
+    bottom:  0;
+    right: 0;
+    background: #00000091;
+    display:  -webkit-box;
+    display:  -ms-flexbox;
+    display:  flex;
+    -ms-flex-wrap:  wrap;
+        flex-wrap:  wrap;
+    color: #fff;
+    -webkit-box-align:  center;
+        -ms-flex-align:  center;
+            align-items:  center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 25px 20px;
+}
+
+.img-bg a {
+    color: #fff;
+}
+
+.bg-tit {
+    font-family: GothamPro-Medium;
+    font-size: 28px;
+}
+
+.bg-color {
+    font-family: GothamPro;
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+
+.bg-all a {
+    font-family: GothamPro;
+    font-size: 16px;
+    background: url(../images/arrrow_in.png)left top no-repeat;
+    padding: 3px 0 3px 34px;
+    background-size: 8%;
+}
+
+
+.bg-all a:hover {
+    text-decoration:underline;
+    color:#fff;
+}
+
+.prise-bg {
+    display:  -webkit-box;
+    display:  -ms-flexbox;
+    display:  flex;
+    -webkit-box-align:  center;
+        -ms-flex-align:  center;
+            align-items:  center;
+    font-family: GothamPro-Bold;
+    margin: 0 0 20px;
+}
+
+.old-prise {
+    margin: 0 24px 0 0;
+    text-decoration:  line-through;
+}
+
+.prise-is {
+    font-size: 28px;
+}
+
+.bg-but a {
+    background: #689f38;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.bg-but a:hover {
+    color:#fff;
+    opacity:0.8;
+    text-decoration:none;
+}
+
+.bg-r {
+    text-align:  center;
+}
+
+
+/*---------------------*/
+
+.tabs-bl {
+    margin: 0;
+    padding: 0 0 30px;
+}
+
+ul#pills-tab li a {
+    margin: 0 10px 0;
+    background-color:  transparent;
+    padding: 10px 20px;
+    color: #3e2723;
+    font-family: GothamPro-Medium;
+    font-size: 18px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+    border-bottom: 4px solid #689f38;
+    border-radius: 0;
+}
+
+.tabs-text {
+    margin: 0 11px 15px;
+}
+
+.tabs-tit {
+    font-family: GothamPro-Bold;
+    margin: 10px 0 10px;
+    font-size: 18px;
+}
+
+.lSSlideOuter {
+    margin: 20px 0 0;
+}
+
+.tab-pane {
+    padding: 10px;
+}
+
+a.lSPrev {
+    background: url(../images/arrow-l.png) left top no-repeat;
+}
+
+a.lSNext {
+    background: url(../images/arrow-r.png) left top no-repeat;
+}
+
+.lSAction > .lSNext {
+    background-position: -32px 0;
+    right: 17px;
+}
+
+.lSAction > .lSNext {
+    background-position: 0 0;
+    background: url(../images/arrow-r.png) left top no-repeat !important;
+    right: 19px;
+}
+
+.lSAction > a {
+    background: url(../images/arrow-l.png) left top no-repeat !important;
+    height: 53px !important;
+}
+
+/*--------------------------*/
+
+h2.categor-tit.ist.text-center {line-height: 90px;}
+
+.cat-bl {
+    display:  -webkit-box;
+    display:  -ms-flexbox;
+    display:  flex;
+    -ms-flex-wrap:  wrap;
+    flex-wrap:  wrap;
+    color: #424242;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 0 20px;
+}
+
+.cat-item {
+    width: 350px;
+    margin: 0 15px 20px;
+    background: #fff;
+}
+
+.cat-tit {
+    padding: 10px;
+    text-align:  center;
+    font-family: GothamPro-Medium;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.cat-prise {
+    padding: 10px;
+    display:  -webkit-box;
+    display:  -ms-flexbox;
+    display:  flex;
+    -ms-flex-wrap:  wrap;
+        flex-wrap:  wrap;
+    -webkit-box-align:  center;
+        -ms-flex-align:  center;
+            align-items:  center;
+    -webkit-box-pack:  center;
+        -ms-flex-pack:  center;
+            justify-content:  center;
+    margin: 0 0 15px;
+}
+
+.cat-old {
+    margin: 0 20px 0;
+    font-family: GothamPro;
+    color: #f44336;
+    text-decoration:  line-through;
+}
+
+.cat-img {
+    margin: 0 0 15px;
+}
+
+/*--------------------*/
+
+h2.categor-tit.is.text-center {line-height: 90px;}
+
+.cat-stoc-bl {
+    margin: 0 15px 20px;
+    width: 350px;
+    position:  relative;
+}
+
+.stoc-is {
+    position:  absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    background: #f44336;
+    padding: 5px 13px;
+    border-radius: 4px;
+    font-family: GothamPro-Bold;
+    font-size: 18px;
+}
+
+.stoc-prise {
+    position:  absolute;
+    bottom:  0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display:  -webkit-box;
+    display:  -ms-flexbox;
+    display:  flex;
+    -webkit-box-pack:  justify;
+        -ms-flex-pack:  justify;
+            justify-content:  space-between;
+    color: #fff;
+    -ms-flex-wrap:  wrap;
+        flex-wrap:  wrap;
+    background: #0000007a;
+}
+
+.stoc-tit {
+    font-family: GothamPro;
+    font-size: 18px;
+}
+
+.prise-stoc {
+    font-family: GothamPro-Bold;
+    text-decoration:  line-through;
+    font-size: 18px;
+}
+
+@media (max-width: 992px) {
+    .cat-item {
+        width: 340px;
+        margin: 0 15px 20px;
+        background: #fff;
+    }
+}
+
+@media (max-width: 768px) {
+    .cat-item {
+        width: 290px;
+        margin: 0 15px 20px;
+        background: #fff;
+    }
+}
+
+@media (max-width: 640px) {
+
+.img-bg {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.cat-item {
+    width: 230px;
+}
+
+.bg-tit {
+    font-size: 20px;
+}
+
+.bg-l {
+    text-align: center;
+}
+
+}
+
+
+
+@media (max-width: 522px) {
+    .cat-item {
+        width: 340px;
+    }
+}
+
+@media (max-width: 490px) {
+
+.img-bg {
+    position: relative;
+    background: #fff;
+    color: #000;
+}
+
+.img-bg a {
+    color: #000;
+}
+
+.bg-but a {
+    background: #689f38;
+    color:#fff;
+}
+
+.prise-is {
+    font-size: 22px;
+}
+
+.bg-tit {
+    font-size: 22px;
+}
+
+.bg-all a {
+    padding: 0;
+}
+
+
+
+}
+
+@media (max-width: 350px) {
+
+ol.breadcrumb {
+    font-size: 14px;
+}
+
+}
